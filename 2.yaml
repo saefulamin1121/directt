@@ -1,0 +1,129 @@
+proxies:
+  - name: BIZNET🇮🇩
+    server: 141.193.213.21
+    port: 80
+    type: vmess
+    uuid: 3890505d-a496-4418-91a1-742faa2b0ac7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: biznet3.nextvpn.cc
+    network: ws
+    ws-opts:
+      path: /vpnneo
+      headers:
+        Host: biznet3.nextvpn.cc
+    udp: true
+  - name: BIZNET 2🇮🇩
+    server: 141.193.213.20
+    port: 80
+    type: vmess
+    uuid: 3890505d-a496-4418-91a1-742faa2b0ac7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: biznet3.nextvpn.cc
+    network: ws
+    ws-opts:
+      path: /vpnneo
+      headers:
+        Host: biznet3.nextvpn.cc
+    udp: true
+  - name: APIK
+    server: 141.193.213.21
+    port: 80
+    type: vmess
+    uuid: 700414cf-daf7-4cc5-8c29-1c7e74216016
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: apik3.nextvpn.cc
+    network: ws
+    ws-opts:
+      path: /vpnneo
+      headers:
+        Host: apik3.nextvpn.cc
+    udp: true
+  - name: APIK 2
+    server: 141.193.213.20
+    port: 80
+    type: vmess
+    uuid: 700414cf-daf7-4cc5-8c29-1c7e74216016
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: apik3.nextvpn.cc
+    network: ws
+    ws-opts:
+      path: /vpnneo
+      headers:
+        Host: apik3.nextvpn.cc
+    udp: true
+  - name: BACKUP 1
+    server: 104.18.21.226
+    port: 80
+    type: vmess
+    uuid: 3890505d-a496-4418-91a1-742faa2b0ac7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: biznet3.nextvpn.cc
+    network: ws
+    ws-opts:
+      path: /vpnneo
+      headers:
+        Host: biznet3.nextvpn.cc
+    udp: true
+  - name: BACKUP 2
+    server: 104.18.21.226
+    port: 80
+    type: vmess
+    uuid: 700414cf-daf7-4cc5-8c29-1c7e74216016
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: apik3.nextvpn.cc
+    network: ws
+    ws-opts:
+      path: /vpnneo
+      headers:
+        Host: apik3.nextvpn.cc
+    udp: true 
+  - name: UMUM 1
+    server: 141.193.213.20
+    port: 80
+    type: vmess
+    uuid: 3890505d-a496-4418-91a1-742faa2b0ac7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: biznet3.nextvpn.cc
+    network: ws
+    ws-opts:
+      path: /vpnneo
+      headers:
+        Host: biznet3.nextvpn.cc
+    udp: true
+  - name: UMUM 2
+    server: 141.193.213.20
+    port: 80
+    type: vmess
+    uuid: 700414cf-daf7-4cc5-8c29-1c7e74216016
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: apik3.nextvpn.cc
+    network: ws
+    ws-opts:
+      path: /vpnneo
+      headers:
+        Host: apik3.nextvpn.cc
+    udp: true
